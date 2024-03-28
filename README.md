@@ -1,12 +1,12 @@
 # API de Filmes e Avaliações
-### Essa é uma API criada com o FastAPI para gerenciar filmes e suas avaliações. 
+ Essa é uma API criada com o FastAPI para gerenciar filmes e suas avaliações. 
 
-### O diagrama ER do projeto está abaixo:
+#### O diagrama ER do projeto está abaixo:
 ![Imagem do WhatsApp de 2023-04-28 à(s) 18 11 10](https://user-images.githubusercontent.com/72052521/235273891-855c2d17-463e-4368-9c68-f6553cc3a537.jpg)
 
-### O vídeo descrevendo e demonstrando as atualizações do handout 02 na API pode ser acessado aqui:https://youtu.be/mJt3WxHqSoI
+#### O vídeo descrevendo e demonstrando as atualizações do handout 02 na API pode ser acessado aqui: https://youtu.be/mJt3WxHqSoI
 
-### O vídeo (parte 1 do projeto) descrevendo e demonstrando as funcionalidades da API pode ser acessado aqui: https://youtu.be/n9Ev8t0KOdo .
+#### O vídeo (parte 1 do projeto) descrevendo e demonstrando as funcionalidades da API pode ser acessado aqui: https://youtu.be/n9Ev8t0KOdo .
 -------------------------------------------------
 ## Como rodar o projeto?
 - Clone o repositório localmente.
@@ -21,7 +21,7 @@ database_url = mysql+mysqlconnector://{user}:{password}@localhost:3306/sql_app
 uvicorn sql_app.main:app --reload
 ```
 -------------------------------------------------
-## A API possui os seguintes endpoints:
+#### A API possui os seguintes endpoints:
 
 POST /filme
 - Cria um novo filme no banco de dados.
